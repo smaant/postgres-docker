@@ -5,7 +5,7 @@ jobs:
       enabled: true
     working_directory: /home/circleci/postgres
     environment:
-      DOCKER_IMAGE=circleci/postgres
+      DOCKER_IMAGE=circleci/postgres-script-enhance
 
     steps:
       - checkout
