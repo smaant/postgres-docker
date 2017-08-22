@@ -1,4 +1,4 @@
-FROM postgres:9.4.12
+FROM postgres:9.5.8
 
 RUN rm docker-entrypoint.sh
 COPY docker-entrypoint.sh /usr/local/bin/
