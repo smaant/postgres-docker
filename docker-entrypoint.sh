@@ -173,4 +173,9 @@ if [ "$1" = 'postgres' ]; then
 	fi
 fi
 
+if [ -f /circleconfig/postgres/customizations ] && [ -s /circleconfig/postgres/customizations ]
+then
+	. /circleconfig/postgres/customizations
+fi
+
 exec "$@"
