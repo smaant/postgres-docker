@@ -8,3 +8,5 @@ RUN apt-get update \
 RUN rm docker-entrypoint.sh
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN ln -s usr/local/bin/docker-entrypoint.sh
+
+COPY postgresql.conf /postgresql.conf
