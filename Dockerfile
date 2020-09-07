@@ -1,4 +1,4 @@
-FROM postgres:9.5.16
+FROM postgres:9.5.23
 
 RUN apt-get update \
   && apt-get upgrade --no-install-recommends -y \
