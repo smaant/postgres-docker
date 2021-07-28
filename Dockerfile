@@ -1,4 +1,4 @@
-FROM postgres:12.5
+FROM postgres:12
 
 RUN apt-get update \
   && apt-get upgrade --no-install-recommends -y \
