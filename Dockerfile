@@ -1,4 +1,4 @@
-FROM postgres:12
+FROM postgres:9.5.25
 
 RUN apt-get update \
   && apt-get upgrade --no-install-recommends -y \
